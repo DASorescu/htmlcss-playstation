@@ -20,16 +20,17 @@
 .txt-black{
     color: #000;
 }
+.txt-white{
+    color: #fff;
+}
 
 /* general */
 .sony-logo{
     height: 30px;
 }
 
-.head-btn{
-    color: #fff;
-    background-color: var(--bg-black);
-
+.bg-orange{
+    background-color: var(--orange-btn);
 }
 
 .info-btn{
@@ -44,16 +45,42 @@ header{
     right: 0%;
 }
 
-
-.navbar{
-    background-color: #fff;
+.navbar-nav li a{
+    display:flex;
+    align-items: center;
 }
 
-.right-navbar li{
-     list-style-type: none;
+.arrow-down{
+    font-size: 10px;
 }
+
+
 .right-navbar a {
 
     text-decoration: none;
     color: #fff;
+}
+
+/* jumbotron */
+
+#jumbotron{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jumbotron img{
+    width: 100%;
+}
+
+#jumbotron h2{
+    font-size: 30px;
+}
+
+/* games section */
+#games img{
+    max-width: 100%;
 }
