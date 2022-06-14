@@ -93,6 +93,20 @@ header{
 }
 
 
-.accessories img{
-filter: opacity(0.5);
+/* .accessories img{
+filter: opacity(.1);
+} */
+
+#banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+sup{
+    font-size: 10px;
 }
