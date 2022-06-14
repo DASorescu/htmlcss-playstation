@@ -1,0 +1,59 @@
+:root{
+    --primary-blue: #2E64E6;
+    --orange-btn:#CD3D0F;
+    --bg-black: #1F1F1F;
+    --bg-gray: #BEBCBB;
+    --bg-light-gray: #D8DADC;
+    --bg-dark-blue: #161C3A;
+    --main-txt-color : #fff;
+    --secondary-txt-color: #7C7C7C;
+
+
+
+}
+
+/* utils */
+
+.bg-black{
+    background-color: var(--bg-black);
+}
+.txt-black{
+    color: #000;
+}
+
+/* general */
+.sony-logo{
+    height: 30px;
+}
+
+.head-btn{
+    color: #fff;
+    background-color: var(--bg-black);
+
+}
+
+.info-btn{
+
+}
+
+/* header */
+header{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+
+.navbar{
+    background-color: #fff;
+}
+
+.right-navbar li{
+     list-style-type: none;
+}
+.right-navbar a {
+
+    text-decoration: none;
+    color: #fff;
+}
