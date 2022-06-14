@@ -26,6 +26,15 @@ img{
 .bg-blu{
     background-color: var(--main-blue);
 }
+.bg-gray{
+    background-color: var(--bg-gray);
+}
+.bg-light-gray{
+    background-color: var(--bg-light-gray);
+}
+.bg-dark-blu{
+    background-color: var(--bg-dark-blue);
+}
 .txt-black{
     color: #000;
 }
@@ -38,6 +47,7 @@ img{
 .txt-gray{
     color: var(--secondary-txt-color);
 }
+
 /* general */
 .sony-logo{
     height: 30px;
@@ -109,4 +119,16 @@ filter: opacity(.1);
 
 sup{
     font-size: 10px;
+}
+
+/* PS4 */
+
+.registered{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    
+    border: 1px solid #000;
+    line-height: 12px;
+    vertical-align: middle;
 }
