@@ -1,5 +1,11 @@
+img{
+    max-width: 100%;
+}
+
+
+
 :root{
-    --primary-blue: #2E64E6;
+    --main-blue: #2E64E6;
     --orange-btn:#CD3D0F;
     --bg-black: #1F1F1F;
     --bg-gray: #BEBCBB;
@@ -17,13 +23,21 @@
 .bg-black{
     background-color: var(--bg-black);
 }
+.bg-blu{
+    background-color: var(--main-blue);
+}
 .txt-black{
     color: #000;
 }
 .txt-white{
     color: #fff;
 }
-
+.txt-blu{
+    color: var(--main-blue);
+}
+.txt-gray{
+    color: var(--secondary-txt-color);
+}
 /* general */
 .sony-logo{
     height: 30px;
@@ -33,9 +47,6 @@
     background-color: var(--orange-btn);
 }
 
-.info-btn{
-
-}
 
 /* header */
 header{
@@ -72,10 +83,6 @@ header{
     background-position: center;
 }
 
-#jumbotron img{
-    width: 100%;
-}
-
 #jumbotron h2{
     font-size: 30px;
 }
@@ -83,4 +90,9 @@ header{
 /* games section */
 #games img{
     max-width: 100%;
+}
+
+
+.accessories img{
+filter: opacity(0.5);
 }
