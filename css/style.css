@@ -1,9 +1,4 @@
-img{
-    max-width: 100%;
-}                 
- 
-      
-
+                
 :root{
     --main-blue: #2E64E6;
     --orange-btn:#CD3D0F;
@@ -18,7 +13,7 @@ img{
 
 }
 
-/* utils */
+/* //UTILITIES */
 
 .bg-black{
     background-color: var(--bg-black);
@@ -48,7 +43,16 @@ img{
     color: var(--secondary-txt-color);
 }
 
-/* general */
+
+
+/*// GENERAL */
+body{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}  
+
 .sony-logo{
     height: 30px;
 }
@@ -64,7 +68,7 @@ a{
     text-decoration: none;
 }
 
-/* header */
+/* HEADER */
 header{
     position: sticky;
     top: 0%;
@@ -89,7 +93,7 @@ header{
     color: #fff;
 }
 
-/* jumbotron */
+/* MAIN JUMBOTRON */
 
 #jumbotron{
     width: 100%;
@@ -104,15 +108,20 @@ header{
     font-size: 30px;
 }
 
-/* games section */
+/* GAMES SECTION */
+
 #games img{
     max-width: 100%;
 }
 
+/* ACCESORIES SECTION */
 
 .accessories img{
-filter: opacity(.1);
+filter: opacity(.5);
 }
+
+
+/* SECONDARY JUMBOTRON(BANNER) */
 
 #banner{
     height: 600px;
@@ -128,7 +137,7 @@ sup{
     font-size: 10px;
 }
 
-/* PS4 */
+/* PS4 SECTION */
 
 .registered{
     height: 15px;
@@ -141,7 +150,8 @@ sup{
 }
 
 
-/* footer */
+/* FOOTER SECTION */
+
 .language-globe{
     height: 25px;
     display: inline-block;
@@ -160,3 +170,30 @@ sup{
 .sie-logo{
     height: 50px;
 }
+
+
+/* #EFFECTS */
+
+/* .row{
+    transition: transform 3s , filter 3s ;
+}  */
+#games . row{
+    transition: transform 3s
+}
+#games [class^="col"]:hover img  {
+    
+    cursor: pointer;
+    
+    transform: translateY(-10px);
+   
+}
+
+.accessories [class^="col"]:hover img  {
+    
+    cursor: pointer;
+
+    filter: opacity(1);
+    border-bottom: 1px solid var(--main-blue)
+   
+}
+
