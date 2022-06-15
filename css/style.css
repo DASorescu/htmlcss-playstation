@@ -68,6 +68,9 @@ a{
     text-decoration: none;
 }
 
+.my-active{
+    border-bottom: 2px solid var(--main-blue);
+}
 /* HEADER */
 header{
     position: sticky;
