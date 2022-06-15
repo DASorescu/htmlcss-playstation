@@ -1,8 +1,8 @@
 img{
     max-width: 100%;
-}
-
-
+}                 
+ 
+      
 
 :root{
     --main-blue: #2E64E6;
@@ -57,6 +57,12 @@ img{
     background-color: var(--orange-btn);
 }
 
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 
 /* header */
 header{
@@ -64,6 +70,7 @@ header{
     top: 0%;
     left: 0%;
     right: 0%;
+    z-index: 1;
 }
 
 .navbar-nav li a{
@@ -103,9 +110,9 @@ header{
 }
 
 
-/* .accessories img{
+.accessories img{
 filter: opacity(.1);
-} */
+}
 
 #banner{
     height: 600px;
@@ -131,4 +138,25 @@ sup{
     border: 1px solid #000;
     line-height: 12px;
     vertical-align: middle;
+}
+
+
+/* footer */
+.language-globe{
+    height: 25px;
+    display: inline-block;
+}
+
+.ps-logo{
+    height: 100px;
+    color: #fff;
+}
+
+.copyright{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.sie-logo{
+    height: 50px;
 }
